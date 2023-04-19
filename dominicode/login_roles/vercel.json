@@ -2,7 +2,6 @@
   "name": "025_newborrar03",
   "version": 2,
   "public": true,
-  "root-directory": "dominicode/login_roles/",
   "builds": [
     {
       "src": "src/index.ts",
