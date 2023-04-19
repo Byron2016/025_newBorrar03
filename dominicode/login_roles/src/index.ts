@@ -1,11 +1,7 @@
-import dotenv from "dotenv";
 import express from "express";
 import { Request, Response } from "express";
 import cors from "cors";
-import helmet from "helmet";
-
-dotenv.config();
-console.log(process.env.PORT);
+import helmet from "helmet"; // Security
 
 const PORT = process.env.PORT || 4000;
 
@@ -19,15 +15,15 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req: Request, res: Response) => {
-  res.send("P001_pagina inicio 😎😋😋");
+  res.send("P001_pagina inicio 🐸🐸🐸");
 });
 
 app.get("/test", (_req: Request, res: Response) => {
-  return res.send("NewBorrar_01 Express Typescript on Vercel");
+  return res.send("NewBorrar_03 Express Typescript on Vercel");
 });
 
 app.get("/ping", (_req: Request, res: Response) => {
-  return res.send("MNewBorrar_01 pong.. --> 🏓");
+  return res.send("MNewBorrar_03 pong.. --> 🏓");
 });
 
 // start express server

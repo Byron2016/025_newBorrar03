@@ -1,0 +1,29 @@
+// {
+//     "compilerOptions": {                 /* Enable incremental compilation */
+//       "target": "es2017",
+//       "module": "commonjs",
+//       "allowJs": true,
+//       "declaration": true,                      /* Concatenate and emit output to single file. */
+//       "outDir": "./dist",
+//       "strict": true,
+//       "esModuleInterop": true,
+//       "skipLibCheck": true,
+//       "forceConsistentCasingInFileNames": true
+//     },
+//     "include": ["src/**/*.ts"]
+//   }
+
+{
+  "compilerOptions": {       
+    "target": "es2017",
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": true,      
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"]
+}
